@@ -1,0 +1,25 @@
+{
+  "name": "myelement1",
+  "version": "1.0.20",
+  "description": "简单的一个组件库",
+  "main": "myelement1.mjs",
+  "exports": {
+    "./style.css": "./style.css",
+    ".": {
+      "import": "./myelement1.mjs",
+      "require": "./myelement1.umd.js"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "myelement1"
+  ],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/719676340/MyElement.git"
+  }
+}
